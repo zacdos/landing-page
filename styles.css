@@ -1,0 +1,110 @@
+body {
+    padding: 0 100px 0 100px;
+    gap: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    border: solid blue 1px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    border: solid blue 1px;
+    list-style-type: none;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid blue 1px;
+
+}
+
+.intro-left {
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 500px;
+    border: solid blue 1px;
+    padding: 10px;
+}
+
+.intro-title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.intro-description {
+    flex-wrap: wrap;
+}
+
+button {
+    border-radius: 8px;
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+}
+
+.intro-right {
+    width: 500px;
+    padding: 10px;
+    border: solid blue 1px;
+
+}
+
+.information {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-wrap: wrap;
+    border: solid blue 1px;
+    padding: 10px;
+}
+
+.mini-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    border: solid blue 1px;
+}
+
+.testimony {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    font-color: #1F2937;
+    text-align: center;
+    width: 500px;
+}
+
+.quote-person {
+    text-align: right;
+    width: 500px;
+}
+
+.footer-container {
+    border: solid blue 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
