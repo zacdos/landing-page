@@ -1,6 +1,6 @@
-body {
-    padding: 0 100px 0 100px;
-    gap: 30px;
+
+div {
+    font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -8,61 +8,94 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 10px 0 10px;
-    border: solid blue 1px;
+    background-color: #1F2937
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8
 }
 
 ul {
     display: flex;
     flex-direction: row;
     gap: 15px;
-    border: solid blue 1px;
     list-style-type: none;
+}
+
+li {
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    color: #E5E7EB
 }
 
 main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: solid blue 1px;
-
+    align-items: center;
+    padding: 50px 25px;
+    background-color: #1F2937
 }
 
 .intro-left {
     display: flex; 
     flex-direction: column;
     justify-content: flex-start;
-    width: 500px;
-    border: solid blue 1px;
     padding: 10px;
+    width: 350px;
+    gap: 10px;
 }
 
 .intro-title {
-    font-size: 32px;
-    font-weight: bold;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8
 }
 
 .intro-description {
     flex-wrap: wrap;
+    font-size: 18px;
+    color: #E5E7EB
 }
 
 button {
     border-radius: 8px;
     width: 60px;
     padding: 5px;
+    border-width: 0;
     text-align: center;
-}
+    color: white;
+    font-weight: bold;
+    background-color: #3882F6
+ }
+
+button {
+    border-radius: 8px;
+    width: 60px;
+    padding: 5px;
+    border: 1px white;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: #3882F6
+ }
 
 .intro-right {
-    width: 500px;
     padding: 10px;
-    border: solid blue 1px;
+}
 
+.pt {
+    width: 350px;
+    height: auto;
 }
 
 .information {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
 }
 
 .image {
@@ -72,7 +105,7 @@ button {
     align-items: center;
     text-align: center;
     text-wrap: wrap;
-    border: solid blue 1px;
+    width: 150px;
     padding: 10px;
 }
 
@@ -80,13 +113,15 @@ button {
     width: 150px;
     height: 150px;
     border-radius: 25px;
-    border: solid blue 1px;
 }
 
 .testimony {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #E5E7EB;
+    gap: 10px;
+    padding: 30px 0 30px 0;
 }
 
 .quote {
@@ -99,12 +134,29 @@ button {
 
 .quote-person {
     text-align: right;
-    width: 500px;
+}
+
+footer {
+    padding: 50px 0 50px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .footer-container {
-    border: solid blue 1px;
+    background-color: #3882F6;
+    width: 800px;
+    border-radius: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
     align-items: center;
+    gap: 10px;
+}
+
+h3 {
+    color: white;
+}
+
+.slogan {
+    color: white;
 }
